@@ -2,6 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv")
 const app = express()
 const Port =  3000 
+const path = require("path")
 const HomeRouter = require("./routes/route")
 const db = require("./models/contact")
 const mongoose = require("mongoose")
@@ -14,10 +15,12 @@ mongoose.connect(process.env.DATA_URI).then(() => {
 })
 
 // middlewares 
+
 app.use(express.json())
 app.use(express.urlencoded({extended : true}))
 app.set("view engine" , "ejs")
 app.use(express.static("./public/"));
+
 
 // routes 
 app.use("/" , HomeRouter)

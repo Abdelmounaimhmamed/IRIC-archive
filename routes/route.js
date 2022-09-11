@@ -92,12 +92,7 @@ const data_s2 = [
 router.get("/" , (req,res) => {
     res.render("home.ejs" , {items : data_s1 , items_2 : data_s2})
 })
-router.get("/courses" , (req ,res) => {
-    res.render( "courses.ejs" , {
-        data : "data is loading"
-    })
 
-})
 
 router.get("/Team" , (req,res) => {
     res.render("Team.ejs")

@@ -123,7 +123,7 @@ router.get("/courses/:id" , (req,res) => {
     
           data_s1.forEach((data) => {
            if (id === data.id) {
-             res.render("courses" , {
+             res.render("courses.ejs" , {
                 content :  data.title,
                 additional : data.additional.module_1
              })

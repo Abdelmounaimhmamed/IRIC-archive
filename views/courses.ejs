@@ -52,6 +52,15 @@
             justify-content: center;
             align-items: center;
         }
+
+        .items {
+            margin-right: 20px;
+        }
+        .items a {
+            text-decoration: none;
+            color: white;
+            font-size: 19px;
+        }
         
         .tit{
             text-align: center;
@@ -74,19 +83,16 @@
         <h1 class="title animate__animated animate__bounceInDown">IRIC</h1>
         <ul class="main-ul">
             <li class="items"><a href="/">Home</a></li>
-           
             <li class="items"><a href="/Team">Team</a></li>
             <li class="items"><a href="/contact">Contact</a></li>
         </ul>
     </nav>
     <hr/>
-   
 
     <div class="module">
         <h1 class="tit"> <%= content%> </h1>
         <p class=""> <%= additional %> </p>
     </div>
- 
 
 </body>
 </html> 

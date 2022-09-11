@@ -81,12 +81,12 @@
 }
 
 .item{
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     background-color: #2c3e50;
     color: white;
     border-radius: 20px;
-    margin: 20px 40px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,7 +101,9 @@
 .link{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 19px;
+    text-align: center;
+    margin: 0px 20px;
 }
 .separator{
     background-color: #2c3e50;

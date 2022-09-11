@@ -117,20 +117,20 @@ router.post("/Contact" , async (req,res) => {
 
 
 
-// router.get("/courses/:id" , (req,res) => {
-//     id = req.params.id 
+router.get("/courses/:id" , (req,res) => {
+    id = req.params.id 
     
-//           data_s1.forEach((data) => {
-//            if (id === data.id) {
-//              res.render("courses.ejs" , {
-//                 content :  data.title,
-//                 additional : data.additional.module_1
-//              })
-//             }
-//         })
+          data_s1.forEach((data) => {
+           if (id === data.id) {
+             res.render("courses.ejs" , {
+                content :  data.title,
+                additional : data.additional.module_1
+             })
+            }
+        })
         
    
-// })
+})
 
 
 module.exports = router

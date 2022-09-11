@@ -1,5 +1,4 @@
 const express = require("express")
-const { reset } = require("nodemon")
 const router = express.Router()
 const Contact = require("../models/contact")
 const data_s1 = [

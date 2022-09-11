@@ -1,0 +1,17 @@
+<%- include("./header_footer/header.ejs")%>
+<!-- Nav bar -->
+<%- include("navbar.ejs") %> 
+<!-- header -->
+<%- include("header.ejs") %> 
+
+<form action="/Contact" method="Post" class="form">
+    <h1 class="titl" > Contact-me</h1>
+    <input type="text" name="firstName" placeholder="Enter your First name" required="required"/>
+    <input type="text" name="lastName" placeholder="Enter your Last name" required="required"/>
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <textarea placeholder="Any suggestions" class="textarea" required name="suggestion"></textarea>
+    <button type="submit" class="btn">Send</button>
+</form>
+
+<!-- footer -->
+<%- include("./header_footer/footer.ejs"); %> 

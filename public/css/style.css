@@ -271,4 +271,10 @@ i{
     .textarea{
         width: 300px;
     }
+    .separator{
+        width: 96%;
+    }
+    .section-1{
+        width: 93%;
+    }
 }

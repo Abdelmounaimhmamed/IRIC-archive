@@ -122,12 +122,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    max-width: 500px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgb(179, 179, 179);
 }
 input {
-    width: 400px;
+    max-width: 400px;
     height: 60px;
     margin: 10px;
     border-radius: 10px;
@@ -139,7 +139,6 @@ input {
 }
 .textarea{
     max-width: 400px;
-    min-width: 400px;
     min-height: 200px;
     max-height: 200Px;
     text-align: start;
@@ -170,7 +169,7 @@ input {
     justify-content: center;
     align-items: center;
     border: 1px solid #2c3e50;
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     border-radius: 10px;
     padding: 10px;
@@ -242,4 +241,34 @@ i{
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid #2c3e50;
+}
+
+
+@media (max-width :458px){
+    .titre{
+        font-size: 20px;
+    }
+    .header-2{
+        font-size: 17px;
+    }
+    .para{
+        font-size: 17px;
+        max-width: 200px;
+    }
+    .created-by{
+        font-size: 20px;
+        width: 100%;
+    }
+    .items a {
+        font-size: 17px;
+    }
+    .form{
+        max-width: 350px;
+    }
+    input{
+        width: 300px;
+    }
+    .textarea{
+        width: 300px;
+    }
 }

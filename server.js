@@ -7,6 +7,7 @@ const HomeRouter = require("./routes/route")
 const db = require("./models/contact")
 const mongoose = require("mongoose")
 dotenv.config()
+const Typewriter = require("typewriter")
 
 mongoose.connect(process.env.DATA_URI).then(() => {
     console.log("connected to dataBase")
@@ -24,6 +25,8 @@ app.use(express.static("./public/"));
 
 // routes 
 app.use("/" , HomeRouter)
+
+
 
 
 app.listen(process.env.PORT ||  Port, () => {

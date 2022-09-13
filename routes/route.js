@@ -4,7 +4,7 @@ const Contact = require("../models/contact")
 const data_s1 = [
     {
         id :"1" ,
-        icon : "fa-solid fa-shield-halved",
+        icon : "fa-solid fa-network-wired",
         title : "Architecture et interconnexion des réseaux",
         additional : {
             module_1 : "Architecture OSI/TCP-IP",
@@ -13,7 +13,7 @@ const data_s1 = [
     },
     {
         id :"2",
-        icon : "fa-solid fa-shield-halved",
+        icon : "fa-solid fa-satellite-dish",
         title : "Traitement du signal & Modulation",
         additional : {
             module_1 : "Traitement du signal",
@@ -21,7 +21,7 @@ const data_s1 = [
         }
     },{
         id : "3",
-        icon : "fa-solid fa-shield-halved",
+        icon : "fa-brands fa-uncharted",
         title : "Soft embarqué",
         additional : {
             module_1 : "Architecture OSI/TCP-IP",
@@ -30,7 +30,7 @@ const data_s1 = [
     }
     ,{
         id : "4",
-        icon : "fa-solid fa-shield-halved",
+        icon : "fa-brands fa-linux",
         title : "Administration réseaux",
         additional : {
             module_1 : "Architecture OSI/TCP-IP",
@@ -39,7 +39,7 @@ const data_s1 = [
     }
     ,{
         id : "5",
-        icon : "fa-solid fa-shield-halved",
+        icon : "fa-solid fa-bolt",
         title : "Architecture des ordinateurs / Electronique numérique",
         additional : {
             module_1 : "Architecture OSI/TCP-IP",
@@ -47,7 +47,7 @@ const data_s1 = [
         }
     },{
         id : "6",
-        icon : "fa-solid fa-shield-halved",
+        icon : "fa-solid fa-briefcase",
         title : "Economie du marché et gestion budgétaire",
         additional : {
             module_1 : "Architecture OSI/TCP-IP",

@@ -4,10 +4,46 @@
 <!-- header -->
 <%- include("header.ejs") %> 
 <div class="team">
-    <h1>Abdelmounaim hmamed</h1>
-    <p>this is me <b>Abdelmounaim hmamed</b> software and data engineering student at the nationalschool of applied science
-    at Khouribga ,  for more information about provided services then inbox-me...
+    <h1> Hello my name is <b class="message " >Abdelmounaim hmamed </b> </h1>
+    <label class="message typing" id="message"></label>
+    <p class="para">This is me <b class="message" >Abdelmounaim hmamed </b> , software and data engineering student at the national school of applied sciences
+    at Khouribga  , for more information about provided services then hire me ...
     </p>
+    <a href="https://www.linkedin.com/in/abdelmounaim-hmamed-891503203/" target="_blank" class="btn">Hire me</a>
 </div>
+
+<div class="contact">
+    <h1>Have You Any Questions ?</h1>
+    <div class="social">
+       
+        <div class="social-1">
+            <i class="fa-regular fa-envelope"></i>
+            <p class="titre">Email</p>
+            <label class="label">hmamedabdelmounaime@gmail.com</label>
+        </div>
+        <div class="social-1">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="titre">School</p>
+            <label class="label">Ensa - Khouribga </label>
+        </div>
+        <div class="social-1">
+            <i class="fa-brands fa-linkedin"></i>
+            <p class="titre">Linkedin</p>
+            <label class="label">Abdelmounaim hmamed</label>
+        </div>
+    </div>
+
+</div>
+<script   src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
+    
+</script>
+<script>
+    var typed = new Typed(".typing",{
+        strings:["","MERN stack developer","Web Developer","","Engineering student"],
+        typeSpeed:100,
+        BackSpeed:60,
+        loop:true
+    })
+</script>
 <!-- footer -->
 <%- include("./header_footer/footer.ejs"); %> 

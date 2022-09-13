@@ -5,6 +5,21 @@
         <li class="items"><a href="/Team">Team</a></li>
         <li class="items"><a href="/contact">Contact</a></li>
         <li class="items"><a href="https://ensak.usms.ac.ma/ensak/wp-content/uploads/2021/07/IRIC-Broch_VM.pdf" target="_blanck">IRIC</a></li>
+        <i class="fa-solid fa-bars" id="icon"></i>
     </ul>
 </nav>
 <hr/>
+
+<div class="side-bar" id="side-side">
+    <ul class="side-bar-ul">
+        <li class="items"><a href="/">Home</a></li>
+        <li class="items"><a href="/Team">Team</a></li>
+        <li class="items"><a href="/contact">Contact</a></li>
+        <li class="items"><a href="https://ensak.usms.ac.ma/ensak/wp-content/uploads/2021/07/IRIC-Broch_VM.pdf" target="_blanck">IRIC</a></li>
+    </ul>
+</div>
+<script>
+    document.getElementById("icon").addEventListener("click" , function (){
+        document.getElementById("side-side").classList.toggle("show");
+    });
+</script>

@@ -41,6 +41,7 @@ body{
     color: white;
     font-size: 19px;
     margin: 0px 20px;
+    transition: all ease-in-out .5s;
 }
 
 .header{
@@ -440,4 +441,23 @@ i{
 .message{
     text-align: center;
     margin-left: 10%;
+}
+
+
+.active::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #ffffff;
+}
+.active{
+    border-bottom: 2px solid #1798BF;
+}
+.items a:hover{
+    border-bottom: 2px solid #1798BF;
 }

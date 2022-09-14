@@ -162,6 +162,32 @@
                 margin: 20px;
             }
         }
+        .data{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: #2c3e50;
+            width: 300px;
+            height: 200px;
+            margin: 10px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+        }
+        .link {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+            line-height: 200px;
+
+        }
         
     </style>
 </head>
@@ -188,8 +214,22 @@
     </div>
 
     <div class="module">
-        <h1 class="tit"> <%= content%> </h1>
-        <p class=""> <%= additional %> </p>
+        <h1 class="tit"> <%=content%> </h1>
+        <div class="data">
+            <div class="box">
+                <a href="<%=module_1.link%> " class="link"><%=module_1.title%></a>
+            </div>
+            <div class="box">
+                <a href="<%=module_2.link%> " class="link"><%=module_2.title%></a>
+            </div>
+             <div class="box">
+                <a href="<%=module_3.link%> " class="link"><%=module_3.title%></a>
+            </div>
+             <div class="box">
+                <a href="<%=module_4.link%> " class="link"><%=module_4.title%></a>
+            </div>
+
+        </div>
     </div>
     <script>
         document.getElementById("icon").addEventListener("click" , function (){

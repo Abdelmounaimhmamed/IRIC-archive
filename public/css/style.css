@@ -14,9 +14,10 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
     background-color: #2c3e50;
+    padding: 29px;
 }
 .main-ul{
     list-style: none;
@@ -120,6 +121,8 @@ body{
     line-height: 60px;
     text-transform: capitalize;
     margin: 20px auto;
+    background: transparent linear-gradient(to right, rgba(255, 255, 255, 0), #2c3e50, rgba(255, 255, 255, 0)) repeat scroll 0 0;
+
 }
 .form{
     margin: auto;
@@ -368,6 +371,10 @@ i{
         background-color: rgba(255, 255, 255, 0);
         font-size: 30px;
         padding: none;
+        width: 90%;
+    }
+    .item{
+        width: 110%;
     }
 }
 

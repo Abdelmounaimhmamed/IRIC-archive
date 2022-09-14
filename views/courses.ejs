@@ -73,7 +73,95 @@
             align-items: center;
             width: 100%;
         }
-        
+        #icon{
+            display: none;
+        }
+        @media (max-width :458px){
+            .titre{
+                font-size: 20px;
+            }
+            .header-2{
+                font-size: 17px;
+            }
+            .para{
+                font-size: 17px;
+                max-width: 200px;
+            }
+            .created-by{
+                font-size: 20px;
+                width: 100%;
+            }
+            .items a {
+                font-size: 17px;
+            }
+            .form{
+                max-width: 350px;
+            }
+            input{
+                width: 300px;
+            }
+            .textarea{
+                width: 300px;
+            }
+            .separator{
+                width: 96%;
+            }
+            .section-1{
+                width: 93%;
+            }
+            .main-ul  .items{
+                display: none;
+            }
+            .side-bar{
+                display: block;
+                width: 300Px;
+                height: 90vh;
+                background-color: #2c3e50;
+                position: absolute;
+                z-index: 10;
+                left: -300px;
+                transition: .5s ease-in all;
+            }
+            .side-bar-ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+            }
+            .side-bar-ul li {
+                margin-top: 100px;
+            }
+            .items a {
+                text-decoration: none;
+            }
+            #icon{
+                display: block;
+            }
+            .show{
+                left: 0;
+            }
+            input,.textarea{
+                max-width: 400px;
+            }
+            .main-container{
+                flex-direction: column;
+            }
+            .type{
+                background-color: rgba(255, 255, 255, 0);
+                font-size: 30px;
+                padding: none;
+                width: 90%;
+            }
+            .item{
+                width: 110%;
+            }
+            i {
+                color: white;
+                font-size: 28px;
+                margin: 20px;
+            }
+        }
         
     </style>
 </head>
@@ -85,14 +173,29 @@
             <li class="items"><a href="/">Home</a></li>
             <li class="items"><a href="/Team">Team</a></li>
             <li class="items"><a href="/contact">Contact</a></li>
+            <i class="fa-solid fa-bars" id="icon"></i>
+
         </ul>
     </nav>
     <hr/>
+    <div class="side-bar" id="side-side">
+        <ul class="side-bar-ul">
+            <li class="items"><a href="/">Home</a></li>
+            <li class="items"><a href="/Team">Team</a></li>
+            <li class="items"><a href="/contact">Contact</a></li>
+            <li class="items"><a href="https://ensak.usms.ac.ma/ensak/wp-content/uploads/2021/07/IRIC-Broch_VM.pdf" target="_blanck">IRIC</a></li>
+        </ul>
+    </div>
 
     <div class="module">
         <h1 class="tit"> <%= content%> </h1>
         <p class=""> <%= additional %> </p>
     </div>
-
+    <script>
+        document.getElementById("icon").addEventListener("click" , function (){
+            document.getElementById("side-side").classList.toggle("show");
+        });
+    </script>
+    
 </body>
 </html> 

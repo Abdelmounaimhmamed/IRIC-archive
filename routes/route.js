@@ -6,52 +6,139 @@ const data_s1 = [
         id :"1" ,
         icon : "fa-solid fa-network-wired",
         title : "Architecture et interconnexion des réseaux",
-        additional : {
-            module_1 : "Architecture OSI/TCP-IP",
-            module_2 : "Interconnexion des réseaux"
+        // additional : {
+        //     module_1 : "Architecture OSI/TCP-IP",
+        //     module_2 : "Interconnexion des réseaux"
+        // }
+        module_1 : {
+            title : "",
+            link : ""
+        },
+        module_2 : {
+            title : "",
+            link : ""
+        },
+        module_3 : {
+            title : "",
+            link : ""
+        }, module_4 : {
+            title : "",
+            link : ""
         }
     },
     {
         id :"2",
         icon : "fa-solid fa-satellite-dish",
         title : "Traitement du signal & Modulation",
-        additional : {
-            module_1 : "Traitement du signal",
-            module_2 : "Modulations analogiques"
+        // additional : {
+        //     module_1 : "Traitement du signal",
+        //     module_2 : "Modulations analogiques"
+        // }
+        module_1 : {
+            title : "",
+            link : ""
+        },
+        module_2 : {
+            title : "",
+            link : ""
+        },
+        module_3 : {
+            title : "",
+            link : ""
+        }, module_4 : {
+            title : "",
+            link : ""
         }
     },{
         id : "3",
         icon : "fa-brands fa-uncharted",
         title : "Soft embarqué",
-        additional : {
-            module_1 : "Architecture OSI/TCP-IP",
-            module_2 : "Interconnexion des réseaux"
+      
+        module_1 : {
+            title : "",
+            link : ""
+        },
+        module_2 : {
+            title : "",
+            link : ""
+        },
+        module_3 : {
+            title : "",
+            link : ""
+        }, module_4 : {
+            title : "",
+            link : ""
         }
     }
     ,{
         id : "4",
         icon : "fa-brands fa-linux",
         title : "Administration réseaux",
-        additional : {
-            module_1 : "Architecture OSI/TCP-IP",
-            module_2 : "Interconnexion des réseaux"
+        // additional : {
+        //     module_1 : "Architecture OSI/TCP-IP",
+        //     module_2 : "Interconnexion des réseaux"
+        // }
+        module_1 : {
+            title : "",
+            link : ""
+        },
+        module_2 : {
+            title : "",
+            link : ""
+        },
+        module_3 : {
+            title : "",
+            link : ""
+        }, module_4 : {
+            title : "",
+            link : ""
         }
     }
     ,{
         id : "5",
         icon : "fa-solid fa-bolt",
         title : "Architecture des ordinateurs / Electronique numérique",
-        additional : {
-            module_1 : "Architecture OSI/TCP-IP",
-            module_2 : "Interconnexion des réseaux"
+        // additional : {
+        //     module_1 : "Architecture OSI/TCP-IP",
+        //     module_2 : "Interconnexion des réseaux"
+        // }
+        module_1 : {
+            title : "",
+            link : ""
+        },
+        module_2 : {
+            title : "",
+            link : ""
+        },
+        module_3 : {
+            title : "",
+            link : ""
+        }, module_4 : {
+            title : "",
+            link : ""
         }
     },{
         id : "6",
         icon : "fa-solid fa-briefcase",
         title : "Economie du marché et gestion budgétaire",
-        additional : {
-            module_1 : "Architecture OSI/TCP-IP",
-            module_2 : "Interconnexion des réseaux"
+        // additional : {
+        //     module_1 : "Architecture OSI/TCP-IP",
+        //     module_2 : "Interconnexion des réseaux"
+        // }
+        module_1 : {
+            title : "",
+            link : ""
+        },
+        module_2 : {
+            title : "",
+            link : ""
+        },
+        module_3 : {
+            title : "",
+            link : ""
+        }, module_4 : {
+            title : "",
+            link : ""
         }
     }
 ]
@@ -217,7 +304,22 @@ router.get("/courses/:id" , (req,res) => {
            if (id === data.id) {
              res.render("courses.ejs" , {
                 content :  data.title,
-                additional : data.additional.module_1
+                module_1 : {
+                    title : data.module_1.title,
+                    link : data.module_1.link
+                 },
+                 module_2 : {
+                    title : data.module_2.title,
+                    link : data.module_2.link
+                 },
+                 module_3 : {
+                    title : data.module_3.title,
+                    link : data.module_3.link
+                 },
+                 module_4 : {
+                    title : data.module_4.title,
+                    link : data.module_4.link
+                 }
              })
             }
         })

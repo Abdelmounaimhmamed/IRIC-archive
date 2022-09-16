@@ -379,21 +379,21 @@ const data_s1 = [
     },{
         id : "6",
         icon : "fa-solid fa-briefcase",
-        title : "Economie du marché et gestion budgétaire",
+        title : "Website to learn cyber security ",
         module_1 : {
-            title : "",
-            link : ""
+            title : "Try-hack-me",
+            link : "https://tryhackme.com/"
         },
         module_2 : {
-            title : "",
-            link : ""
+            title : "www.coursera.org",
+            link : "https://www.coursera.org/"
         },
         module_3 : {
-            title : "",
-            link : ""
+            title : "3wschool",
+            link : "https://www.w3schools.com/cybersecurity/index.php"
         }, module_4 : {
-            title : "",
-            link : ""
+            title : "Maharatech(for those who want to learn in arabic)",
+            link : "https://maharatech.gov.eg/course/index.php?categoryid=11"
         }, module_5 : {
             title : "",
             link : ""

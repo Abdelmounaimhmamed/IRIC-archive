@@ -78,7 +78,7 @@ body{
 }
 
 .section-1{
-    width: 80%;
+    min-width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;

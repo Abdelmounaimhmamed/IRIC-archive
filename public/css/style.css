@@ -462,3 +462,20 @@ i{
     border-bottom: 2px solid #1798BF;
 }
 
+
+
+.social-media{
+    position: absolute;
+    top: 105%;
+    background-color: #2c3e50;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+}
+.social-media i {
+    color: white;
+}

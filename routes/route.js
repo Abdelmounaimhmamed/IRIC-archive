@@ -303,13 +303,10 @@ const data_s1 = [
         id : "5",
         icon : "fa-solid fa-bolt",
         title : "Architecture des ordinateurs / Electronique numérique",
-        // additional : {
-        //     module_1 : "Architecture OSI/TCP-IP",
-        //     module_2 : "Interconnexion des réseaux"
-        // }
+      
         module_1 : {
-            title : "Electronique numerique",
-            link : "https://drive.google.com/file/d/1CJ8tFgxh1Kz7EFKIq1CSN_cfz696bMX9/view?usp=sharing"
+            title :"Chapitre 1 Electronum.pdf",
+            link : "https://drive.google.com/file/d/10RzHsLivucdRUzXrzyvnPK2z2mzW5xR1/view?usp=sharing",
         },
         module_2 : {
             title : "Electronique numerique logique combinatoire",

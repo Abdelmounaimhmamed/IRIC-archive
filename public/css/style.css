@@ -217,12 +217,13 @@ span{
     margin: 20px 0px ;
 }
 .para{
-    font-family: "Poppins";
-    color: rgb(155, 155, 155);
+    font-family: sans-serif;
+    color: rgb(80 80 80);
     margin: 10px 20px;
     text-align: justify;
     position: absolute;
-    top: 47%;
+    line-height: 25px;
+    top: 44%;
     font-size: 18px;
 }
 .btn-1{
@@ -436,6 +437,7 @@ i{
     padding: 10px;
     text-align: start;
     width: 50%;
+    line-height: 61px;
 }
 
 .message{

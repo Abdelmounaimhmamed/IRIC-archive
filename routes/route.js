@@ -6,22 +6,51 @@ const data_s1 = [
         id :"1" ,
         icon : "fa-solid fa-network-wired",
         title : "Architecture et interconnexion des réseaux",
-        // additional : {
-        //     module_1 : "Architecture OSI/TCP-IP",
-        //     module_2 : "Interconnexion des réseaux"
-        // }
         module_1 : {
-            title : "",
-            link : ""
+            title : "00-introduction generale au reseau",
+            link : "https://drive.google.com/file/d/1eB-wcPtya9zpeudstR-swbsern9IlBro/view?usp=sharing"
         },
         module_2 : {
-            title : "",
-            link : ""
+            title : "01-modeles de references -OSI-TCPIP",
+            link : "https://drive.google.com/file/d/1oBk3gWT3v9PKhgcnLM0SsX3Rrj1hT99t/view?usp=sharing"
         },
         module_3 : {
+            title : "02-Equipement d'interconnexion",
+            link : "https://drive.google.com/file/d/11iXX8SJIVUfSDTeFZOSxmo-3_ghZy_yE/view?usp=sharing"
+        }, module_4 : {
+            title : "03-adressage",
+            link : "https://drive.google.com/file/d/1OPSL3GltepbRd0PKNZHKxfUoYY9eVd5j/view?usp=sharing"
+        }, module_5 : {
+            title : "Routage-vecteur-distance",
+            link : "https://drive.google.com/file/d/1iUrTAqeu8vYuxNWSj2g0XL5U04tmswZT/view?usp=sharing"
+        }, module_6 : {
+            title : "Protocole RIP",
+            link : "https://drive.google.com/file/d/1SBxD0IS6I69LrsFosnodqEy1nyRRAQXt/view?usp=sharing"
+        }, module_7 : {
             title : "",
             link : ""
-        }, module_4 : {
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
             title : "",
             link : ""
         }
@@ -30,42 +59,104 @@ const data_s1 = [
         id :"2",
         icon : "fa-solid fa-satellite-dish",
         title : "Traitement du signal & Modulation",
-        // additional : {
-        //     module_1 : "Traitement du signal",
-        //     module_2 : "Modulations analogiques"
-        // }
         module_1 : {
-            title : "",
-            link : ""
+            title : "Les differents mode de modulation",
+            link : "https://drive.google.com/file/d/1kXHp5vrLoLCCx5u-OObvtKeZwKHKaPY8/view?usp=sharing"
         },
         module_2 : {
-            title : "",
-            link : ""
+            title : "chap-2 modulation d'amplitude ",
+            link : "https://drive.google.com/file/d/192VHi6Dl_oVuAYSxWqYGgHfUyMQq_Weg/view?usp=sharing"
         },
         module_3 : {
-            title : "",
-            link : ""
+            title : "chap transforme de  laplace",
+            link : "https://drive.google.com/file/d/1quKo9qXCgyuNZ6EZM9Od4iomag7c_oyC/view?usp=sharing"
         }, module_4 : {
-            title : "",
-            link : ""
+            title : "chap - Echantillonnage et quantification",
+            link : "https://drive.google.com/file/d/1lSlCfRXL3i8IxdWoyS2VQa9OcUaeKVSe/view?usp=sharing"
+        }, module_5 : {
+            title : "chap - filtres analogiques",
+            link : "https://drive.google.com/file/d/1fHSlPZ5ZAia94TDvIQA7K-hHX7qsN3Ex/view?usp=sharing"
+        }, module_6 : {
+            title : "TD-1 modulation ",
+            link : "https://drive.google.com/file/d/1Mc6JxlVV-3t90Hylt24la0B3y4-uXdMh/view?usp=sharing"
+        }, module_7 : {
+            title : "TD1_IRIC_GE.pdf",
+            link : "https://drive.google.com/file/d/1gy4JDAFWyNBpY7pLYCfht_gj1xDBKIu9/view?usp=sharing"
+        }, module_8 : {
+            title : "TD2 : Analyse de Fourier, transformée de Laplace",
+            link : "https://drive.google.com/file/d/1kOpq8zB47Klqq93TRQ1TFRV-RgT-8ZLp/view?usp=sharing"
+        }, module_9 : {
+            title : "TD2-correction",
+            link : "https://drive.google.com/file/d/1t0pYJu5a96MsjjGnrRw79wOti0iFZaAV/view?usp=sharing"
+        }, module_10 : {
+            title : "TD3 : Modulation de fréquence",
+            link : "https://drive.google.com/file/d/198JxmlXw13etOE3sPajs4Jo_fNPgwnCN/view?usp=sharing"
+        }, module_11 : {
+            title : "TD3 : Modulation de fréquence correction",
+            link : "https://drive.google.com/file/d/1FiEX0y4VNAjSpctKZHNRHMM9PG2y9Syy/view?usp=sharing"
+        },module_12 : {
+            title : "TP1 modulation.pdf",
+            link : "https://drive.google.com/file/d/1xwiaNRfD5kj0dVh-ctKIDeDMUHl2Ni4W/view?usp=sharing"
+        },module_13 : {
+            title : "TP2 IRIC1 GE1.pdf",
+            link : "https://drive.google.com/file/d/1M9r5aopkTTI-TuWCzfWbDwqHDV8iy1Z0/view?usp=sharing"
+        },module_14 : {
+            title : "Corrigé TD2 modulation",
+            link : "https://drive.google.com/file/d/1LVEa7Rr25hiVt96czpGA3PI9FyWgiKEu/view?usp=sharing"
+        },module_15 : {
+            title : "Correction TD1 modulation",
+            link : "https://drive.google.com/file/d/1PqT4rfNL7s3LPnqjqYwd13DRkwg_-s98/view?usp=sharing"
         }
     },{
         id : "3",
         icon : "fa-brands fa-uncharted",
-        title : "Soft embarqué",
+        title : "Soft embarqué(c++)",
       
         module_1 : {
-            title : "",
-            link : ""
+            title : "Langage C++ / TD N°1",
+            link : "https://drive.google.com/file/d/1LVEa7Rr25hiVt96czpGA3PI9FyWgiKEu/view?usp=sharing"
         },
         module_2 : {
-            title : "",
-            link : ""
+            title : "Langage C++ / TD N°2",
+            link : "https://drive.google.com/file/d/1oDvb3_8V0cod-6xmMRqHV1isA4O0uoT8/view?usp=sharing"
         },
         module_3 : {
+            title : "Langage C++ / TD N°4",
+            link : "https://drive.google.com/file/d/1S6i_34Vqiwa3uTFuBw1eDPAVotoUoXdA/view?usp=sharing"
+        }, module_4 : {
+            title : "C___POO___course_1.pdf",
+            link : "https://drive.google.com/file/d/1bZW3C8ZLv6CEKguqjG7BWSY3DaI8Bn23/view?usp=sharing"
+        }, module_5 : {
+            title : "C___POO___course_2.pdf",
+            link : "https://drive.google.com/file/d/1TuKmvJxB_IBgl76ZUULwhuz2eDGsD2Vw/view?usp=sharing"
+        }, module_6 : {
+            title : "CoursPOO_cours_4.pdf",
+            link : "https://drive.google.com/file/d/1tXlARE7Yum1zaIqRRdc4QKxTxGYoS64P/view?usp=sharing"
+        }, module_7 : {
+            title : "CoursPOO_course_5.pdf",
+            link : "https://drive.google.com/file/d/1AUxAlCJ3xdGAgHJMp4d4nCPoVXnDpprB/view?usp=sharing"
+        }, module_8 : {
+            title : "CoursPOO_course_6.pdf",
+            link : "https://drive.google.com/file/d/1h3JnLfVUPPwTSZuoXOKHOEgGm93NdEHw/view?usp=sharing"
+        }, module_9 : {
+            title : "CoursPOO_course_7.pdf",
+            link : "https://drive.google.com/file/d/1dE01HTxSjk8u_8JcdSkNIkvM7WOyIC2m/view?usp=sharing"
+        }, module_10 : {
+            title : "CoursPOO_course_8.pdf",
+            link : "https://drive.google.com/file/d/167Kgx_ValFM78tilzeIRRGWNGXsivSXA/view?usp=sharing"
+        }, module_11 : {
+            title : "Cpp_cours_10.pdf",
+            link : "https://drive.google.com/file/d/1znsM2f394w5vccUjsf99e18VSFKeHv8n/view?usp=sharing"
+        },module_12 : {
             title : "",
             link : ""
-        }, module_4 : {
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
             title : "",
             link : ""
         }
@@ -74,10 +165,7 @@ const data_s1 = [
         id : "4",
         icon : "fa-brands fa-linux",
         title : "Administration réseaux",
-        // additional : {
-        //     module_1 : "Architecture OSI/TCP-IP",
-        //     module_2 : "Interconnexion des réseaux"
-        // }
+        
         module_1 : {
             title : "",
             link : ""
@@ -90,6 +178,39 @@ const data_s1 = [
             title : "",
             link : ""
         }, module_4 : {
+            title : "",
+            link : ""
+        }, module_5 : {
+            title : "",
+            link : ""
+        }, module_6 : {
+            title : "",
+            link : ""
+        }, module_7 : {
+            title : "",
+            link : ""
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
             title : "",
             link : ""
         }
@@ -103,17 +224,50 @@ const data_s1 = [
         //     module_2 : "Interconnexion des réseaux"
         // }
         module_1 : {
-            title : "",
-            link : ""
+            title : "Electronique numerique",
+            link : "https://drive.google.com/file/d/1CJ8tFgxh1Kz7EFKIq1CSN_cfz696bMX9/view?usp=sharing"
         },
         module_2 : {
-            title : "",
-            link : ""
+            title : "Electronique numerique logique combinatoire",
+            link : "https://drive.google.com/file/d/17Uo0aX-EVkSbR98_A3rukgJJPhZgC6de/view?usp=sharing"
         },
         module_3 : {
+            title : "Electronique numerique les compteurs",
+            link : "https://drive.google.com/file/d/17Uo0aX-EVkSbR98_A3rukgJJPhZgC6de/view?usp=sharing"
+        }, module_4 : {
+            title : "Electronique numerique logique sequentielle ",
+            link : "https://drive.google.com/file/d/17Uo0aX-EVkSbR98_A3rukgJJPhZgC6de/view?usp=sharing"
+        }, module_5 : {
+            title : "TP1 et TP2",
+            link : "https://drive.google.com/file/d/1EymXxgibwyRDpH4zq_-MOv_ef_5cCyv2/view?usp=sharing"
+        }, module_6 : {
+            title : "TP3 electronique numerique",
+            link : "https://drive.google.com/file/d/1pv8bqVNEMKrQUGJiUvSZGacMREfwrFRV/view?usp=sharing"
+        }, module_7 : {
+            title : "TP6.pdf",
+            link : "https://drive.google.com/file/d/19OYVrpz-u1U9X-QqF1ruP3HdppwTVcub/view?usp=sharing"
+        }, module_8 : {
             title : "",
             link : ""
-        }, module_4 : {
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
             title : "",
             link : ""
         }
@@ -121,10 +275,6 @@ const data_s1 = [
         id : "6",
         icon : "fa-solid fa-briefcase",
         title : "Economie du marché et gestion budgétaire",
-        // additional : {
-        //     module_1 : "Architecture OSI/TCP-IP",
-        //     module_2 : "Interconnexion des réseaux"
-        // }
         module_1 : {
             title : "",
             link : ""
@@ -137,6 +287,39 @@ const data_s1 = [
             title : "",
             link : ""
         }, module_4 : {
+            title : "",
+            link : ""
+        }, module_5 : {
+            title : "",
+            link : ""
+        }, module_6 : {
+            title : "",
+            link : ""
+        }, module_7 : {
+            title : "",
+            link : ""
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
             title : "",
             link : ""
         }
@@ -162,6 +345,39 @@ const data_s2 = [
         }, module_4 : {
             title : "",
             link : ""
+        }, module_5 : {
+            title : "",
+            link : ""
+        }, module_6 : {
+            title : "",
+            link : ""
+        }, module_7 : {
+            title : "",
+            link : ""
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
+            title : "",
+            link : ""
         }
     },
     {
@@ -182,6 +398,39 @@ const data_s2 = [
         }, module_4 : {
             title : "",
             link : ""
+        }, module_5 : {
+            title : "",
+            link : ""
+        }, module_6 : {
+            title : "",
+            link : ""
+        }, module_7 : {
+            title : "",
+            link : ""
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
+            title : "",
+            link : ""
         }
     },{
         id : "9",
@@ -199,6 +448,39 @@ const data_s2 = [
             title : "",
             link : ""
         }, module_4 : {
+            title : "",
+            link : ""
+        }, module_5 : {
+            title : "",
+            link : ""
+        }, module_6 : {
+            title : "",
+            link : ""
+        }, module_7 : {
+            title : "",
+            link : ""
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
             title : "",
             link : ""
         }
@@ -222,6 +504,39 @@ const data_s2 = [
         module_4 : {
             title : "configuration de firewall",
             link : "https://docs.google.com/presentation/d/1myGmQWHLzmWowIxjKnIbGNunQqGbXGWc/edit#slide=id.p1",
+        }, module_5 : {
+            title : "",
+            link : ""
+        }, module_6 : {
+            title : "",
+            link : ""
+        }, module_7 : {
+            title : "",
+            link : ""
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
+            title : "",
+            link : ""
         }
     }
     ,{
@@ -240,6 +555,39 @@ const data_s2 = [
             title : "",
             link : ""
         }, module_4 : {
+            title : "",
+            link : ""
+        }, module_5 : {
+            title : "",
+            link : ""
+        }, module_6 : {
+            title : "",
+            link : ""
+        }, module_7 : {
+            title : "",
+            link : ""
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
             title : "",
             link : ""
         }
@@ -262,6 +610,39 @@ const data_s2 = [
         module_4 : {
             title : "TD_2",
             link : "https://drive.google.com/file/d/1AuwZU2iYy7AykuJfFlTiVX8xmw1vUxng/view?usp=sharing",
+        }, module_5 : {
+            title : "",
+            link : ""
+        }, module_6 : {
+            title : "",
+            link : ""
+        }, module_7 : {
+            title : "",
+            link : ""
+        }, module_8 : {
+            title : "",
+            link : ""
+        }, module_9 : {
+            title : "",
+            link : ""
+        }, module_10 : {
+            title : "",
+            link : ""
+        }, module_11 : {
+            title : "",
+            link : ""
+        },module_12 : {
+            title : "",
+            link : ""
+        },module_13 : {
+            title : "",
+            link : ""
+        },module_14 : {
+            title : "",
+            link : ""
+        },module_15 : {
+            title : "",
+            link : ""
         }
     }
 ]
@@ -319,6 +700,36 @@ router.get("/courses/:id" , (req,res) => {
                  module_4 : {
                     title : data.module_4.title,
                     link : data.module_4.link
+                 },module_5 : {
+                    title : data.module_5.title,
+                    link : data.module_5.link
+                 }, module_6 : {
+                    title : data.module_6.title,
+                    link : data.module_6.link
+                 }, module_7 : {
+                    title : data.module_7.title,
+                    link : data.module_7.link
+                 }, module_8 : {
+                    title : data.module_8.title,
+                    link : data.module_8.link
+                 }, module_9 : {
+                    title : data.module_9.title,
+                    link : data.module_9.link
+                 }, module_10 : {
+                    title : data.module_10.title,
+                    link : data.module_10.link
+                 }, module_11 : {
+                    title : data.module_11.title,
+                    link : data.module_11.link
+                 }, module_12 : {
+                    title : data.module_12.title,
+                    link : data.module_12.link
+                 }, module_13 : {
+                    title : data.module_13.title,
+                    link : data.module_13.link
+                 }, module_14 : {
+                    title : data.module_14.title,
+                    link : data.module_14.link
                  }
              })
             }
@@ -343,6 +754,37 @@ router.get("/courses/:id" , (req,res) => {
                  module_4 : {
                     title : data.module_4.title,
                     link : data.module_4.link
+                 },
+                 module_5 : {
+                    title : data.module_5.title,
+                    link : data.module_5.link
+                 }, module_6 : {
+                    title : data.module_6.title,
+                    link : data.module_6.link
+                 }, module_7 : {
+                    title : data.module_7.title,
+                    link : data.module_7.link
+                 }, module_8 : {
+                    title : data.module_8.title,
+                    link : data.module_8.link
+                 }, module_9 : {
+                    title : data.module_9.title,
+                    link : data.module_9.link
+                 }, module_10 : {
+                    title : data.module_10.title,
+                    link : data.module_10.link
+                 }, module_11 : {
+                    title : data.module_11.title,
+                    link : data.module_11.link
+                 }, module_12 : {
+                    title : data.module_12.title,
+                    link : data.module_12.link
+                 }, module_13 : {
+                    title : data.module_13.title,
+                    link : data.module_13.link
+                 }, module_14 : {
+                    title : data.module_14.title,
+                    link : data.module_14.link
                  }
               })
              }

@@ -376,7 +376,7 @@ const data_s1 = [
     },{
         id : "6",
         icon : "fa-solid fa-briefcase",
-        title : "Website to learn cyber security ",
+        title : "Websites to learn cyber security ",
         module_1 : {
             title : "Try-hack-me",
             link : "https://tryhackme.com/"

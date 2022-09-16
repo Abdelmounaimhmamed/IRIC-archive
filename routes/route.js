@@ -154,7 +154,7 @@ const data_s1 = [
         icon : "fa-brands fa-uncharted",
         title : "Soft embarqué(c++)",
       
-        module_1 : {
+        module_3 : {
             title : "Langage C++ / TD N°1",
             link : "https://drive.google.com/file/d/1LVEa7Rr25hiVt96czpGA3PI9FyWgiKEu/view?usp=sharing"
         },
@@ -162,10 +162,10 @@ const data_s1 = [
             title : "Langage C++ / TD N°2",
             link : "https://drive.google.com/file/d/1oDvb3_8V0cod-6xmMRqHV1isA4O0uoT8/view?usp=sharing"
         },
-        module_3 : {
+        module_4 : {
             title : "Langage C++ / TD N°4",
             link : "https://drive.google.com/file/d/1S6i_34Vqiwa3uTFuBw1eDPAVotoUoXdA/view?usp=sharing"
-        }, module_4 : {
+        }, module_1 : {
             title : "C___POO___course_1.pdf",
             link : "https://drive.google.com/file/d/1bZW3C8ZLv6CEKguqjG7BWSY3DaI8Bn23/view?usp=sharing"
         }, module_5 : {
@@ -306,7 +306,7 @@ const data_s1 = [
       
         module_1 : {
             title :"Chapitre 1 Electronum.pdf",
-            link : "https://drive.google.com/file/d/10RzHsLivucdRUzXrzyvnPK2z2mzW5xR1/view?usp=sharing",
+            link : "https://drive.google.com/file/d/10RzHsLivucdRUzXrzyvnPK2z2mzW5xR1/view"
         },
         module_2 : {
             title : "Electronique numerique logique combinatoire",
@@ -328,8 +328,8 @@ const data_s1 = [
             title : "TP6.pdf",
             link : "https://drive.google.com/file/d/19OYVrpz-u1U9X-QqF1ruP3HdppwTVcub/view?usp=sharing"
         }, module_8 : {
-            title : "",
-            link : ""
+            title : "electronique numerique Registre à décalage (Shift Registers)",
+            link : "https://drive.google.com/file/d/1CJ8tFgxh1Kz7EFKIq1CSN_cfz696bMX9/view"
         }, module_9 : {
             title : "",
             link : ""

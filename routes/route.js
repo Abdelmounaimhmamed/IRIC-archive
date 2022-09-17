@@ -382,7 +382,7 @@ const data_s1 = [
             link : "https://tryhackme.com/"
         },
         module_2 : {
-            title : "www.coursera.org",
+            title : "www.coursera.org \n ( \n  email : prenom.nom@usms.ac.ma \\ password :create your own password )",
             link : "https://www.coursera.org/"
         },
         module_3 : {
@@ -392,11 +392,11 @@ const data_s1 = [
             title : "Maharatech(for those who want to learn in arabic)",
             link : "https://maharatech.gov.eg/course/index.php?categoryid=11"
         }, module_5 : {
-            title : "",
-            link : ""
+            title : "freecoursesite.com",
+            link : "https://freecoursesite.com/full-ethical-hacking-course-2/"
         }, module_6 : {
-            title : "",
-            link : ""
+            title : "gigacourse.com",
+            link : "https://gigacourse.com/zerotomastery-complete-cybersecurity-bootcamp/"
         }, module_7 : {
             title : "",
             link : ""

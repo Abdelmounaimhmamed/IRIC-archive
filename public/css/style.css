@@ -196,6 +196,7 @@ input {
     background: #2c3e50;
     clip-path: circle(69% at 26% 0);
     overflow: hidden;
+    
 }
 .team p {
     max-width: 500Px;

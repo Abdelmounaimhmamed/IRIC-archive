@@ -197,6 +197,13 @@
         .box{
             margin: 15px 10px;
         }
+        .active{
+            border-bottom: 2px solid  #1798BF;
+        }
+        .items:hover{
+            border-bottom: 2px solid  #1798BF;
+            transition: .5s all ease;
+        }
     </style>
 </head>
 <body>
@@ -204,7 +211,7 @@
     <nav class="nav-bar">
         <h1 class="title animate__animated animate__bounceInDown ">IRIC</h1>
         <ul class="main-ul animate__animated animate__backInRight">
-            <li class="items"><a href="/">Home</a></li>
+            <li class="items active"><a href="/">Home</a></li>
             <li class="items"><a href="/Team">Team</a></li>
             <li class="items"><a href="/contact">Contact</a></li>
             <i class="fa-solid fa-bars" id="icon"></i>
@@ -214,7 +221,7 @@
     <hr/>
     <div class="side-bar" id="side-side">
         <ul class="side-bar-ul">
-            <li class="items"><a href="/">Home</a></li>
+            <li class="items "><a href="/">Home</a></li>
             <li class="items"><a href="/Team">Team</a></li>
             <li class="items"><a href="/contact">Contact</a></li>
             <li class="items"><a href="https://ensak.usms.ac.ma/ensak/wp-content/uploads/2021/07/IRIC-Broch_VM.pdf" target="_blanck">IRIC</a></li>

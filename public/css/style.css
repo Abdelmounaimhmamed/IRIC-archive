@@ -397,7 +397,7 @@ i{
         width: 90%;
     }
     .item{
-        width: 110%;
+        min-width: 94%;
     }
 }
 

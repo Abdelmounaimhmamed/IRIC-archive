@@ -27,8 +27,6 @@ app.use(express.static("./public/"));
 app.use("/" , HomeRouter)
 
 
-
-
 app.listen(process.env.PORT ||  Port, () => {
     console.log(`-- Application Running on http://localhost:${Port}`);
 }) 

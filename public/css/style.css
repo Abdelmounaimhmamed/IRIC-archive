@@ -304,7 +304,6 @@ i{
     display: none;
 }
 
-
 .type{
     text-transform: capitalize;
     font-size: 39px;
@@ -317,7 +316,6 @@ i{
     /* background-color: rgba(81, 168, 219, 0.381); */
     padding: 10px;
     border-radius: 10px;
-
 }
 
 @media (max-width :458px){

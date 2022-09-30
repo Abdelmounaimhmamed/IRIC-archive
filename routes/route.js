@@ -398,8 +398,8 @@ const data_s1 = [
             title : "gigacourse.com",
             link : "https://gigacourse.com/zerotomastery-complete-cybersecurity-bootcamp/"
         }, module_7 : {
-            title : "",
-            link : ""
+            title : "hackerrank",
+            link : "https://www.hackerrank.com/"
         }, module_8 : {
             title : "",
             link : ""

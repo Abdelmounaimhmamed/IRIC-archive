@@ -896,7 +896,7 @@ const data_s2 = [
     }
 ]
 
-
+// const {constrole} = require("./../controllers/ctrl.js")
 
 router.get("/" , (req,res) => {
     res.render("home.ejs" , {items : data_s1 , items_2 : data_s2})
@@ -910,7 +910,7 @@ router.get("/Contact" , (req,res) => {
     res.render("Contact.ejs")
 })
 
-router.post("/Contact" , async (req,res) => {
+router.post("/Contact" ,async (req,res) => {
     const contact = new Contact({
         firstName : req.body.firstName,
         lastName : req.body.lastName,
@@ -923,7 +923,7 @@ router.post("/Contact" , async (req,res) => {
     } catch (error) {
         console.log(error.message)
     }
-})
+} );
 
 
 

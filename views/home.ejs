@@ -26,6 +26,17 @@
         </div>
     <% }) %> 
 </section>
+<div class="separator">
+    <h1>semestre-3</h1>
+</div>
+<section class="section-1">
+    <% items_2.forEach(item => { %>
+        <div class="item">
+            <i class="<%= item.icon%> icon"></i>
+            <a href="/courses/<%=item.id %> "class="link"><%= item.title%></a>
+        </div>
+    <% }) %> 
+</section>
 <script   src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
     
 </script>
